@@ -30,6 +30,10 @@ The database includes the following tables:
 # Relationships
 Many-to-one: Doctors → Departments, Appointments → Patients, Appointments → Doctors, Medical_Records → Patients, Medical_Records → Doctors, Billings → Patients, Billings → Appointments, Medical_Records → Appointments.
 
+![ERD Hospital ](https://github.com/user-attachments/assets/35af703a-781c-44b6-b9d9-8ba1d1605163)
+
+The above diagram is the Entity Relationship Diagram for the Hospital Management Database System
+
 # Future Enhancements
 Add triggers for dynamic bill amount calculation based on treatment.
 Implement stored procedures for canceling appointments or updating patient records.
