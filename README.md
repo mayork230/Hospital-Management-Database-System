@@ -28,8 +28,7 @@ The database includes the following tables:
 - Billings: Manages billing for appointments and treatments.
 
 # Relationships
-Many-to-one: Doctors → Departments, Appointments → Patients, Appointments → Doctors, Medical_Records → Patients, Medical_Records → Doctors, Billings → Patients, Billings → Appointments.
-One-to-one: Medical_Records → Appointments.
+Many-to-one: Doctors → Departments, Appointments → Patients, Appointments → Doctors, Medical_Records → Patients, Medical_Records → Doctors, Billings → Patients, Billings → Appointments, Medical_Records → Appointments.
 
 # Future Enhancements
 Add triggers for dynamic bill amount calculation based on treatment.
