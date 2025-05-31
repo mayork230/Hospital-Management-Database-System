@@ -1,5 +1,8 @@
 # Hospital Management System Database
 
+![Firefly_Healthcare Database 174917](https://github.com/user-attachments/assets/6cd4f12b-5dd5-44e4-ba0f-9d743c29fcc7)
+
+
 ## Overview
 This project provides a MySQL-based relational database for a Hospital Management System. It manages hospital operations, including patients, doctors, appointments, medical records, departments, and billing. The database is designed with normalized tables, foreign key constraints, triggers, views, and stored procedures to ensure data integrity and support efficient hospital operations.
 
